@@ -36,7 +36,13 @@
         "value": "yes,no"
       },
       "usecustomnav": "no",
-      "customnav": "rnaodom",
+      "customnav": "",
+      "jfe-options-usecustomfooter": {
+        "type": "array",
+        "value": "yes,no"
+      },
+      "usecustomfooter": "no",
+      "customfooter": "rnaodom",
       "home cache control settings": "private, max-age=1, no-cache",
       "default cache control settings": "private, max-age=0, no-cache",
       "item cache control settings": "private, max-age=0, no-cache",
@@ -75,7 +81,13 @@
         "value": "yes,no"
       },
       "usecustomnav": "no",
-      "customnav": "rnaodom",
+      "customnav": "",
+      "jfe-options-usecustomfooter": {
+        "type": "array",
+        "value": "yes,no"
+      },
+      "usecustomfooter": "no",
+      "customfooter": "rnaodom",
       "home cache control settings": "private, max-age=1, no-cache",
       "default cache control settings": "private, max-age=0, no-cache",
       "item cache control settings": "private, max-age=0, no-cache",
@@ -115,6 +127,12 @@
       },
       "usecustomnav": "no",
       "customnav": "",
+      "jfe-options-usecustomfooter": {
+        "type": "array",
+        "value": "yes,no"
+      },
+      "usecustomfooter": "no",
+      "customfooter": "",
       "home cache control settings": "public, max-age=3600",
       "default cache control settings": "public, max-age=3600",
       "item cache control settings": "public, max-age=3600",

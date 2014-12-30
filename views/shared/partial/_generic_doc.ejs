@@ -1,9 +1,9 @@
 <% if(genericdoc){%>
-<article class="ts-text-container">
+<article class="ts-text-container <%- genericdoc.urlslug %>">
 	<section class=" ts-container-margin ts-container-margin-auto ts-width-90">
 		<h3><a href="/<%= genericdoc.urlslug %>/<%= genericdoc.name %>"><%= genericdoc.title %></a></h3>
 		<% include _genericdoc_assets %>
-		<div class="_pea-content ts-serif-clean"><%- genericdoc.content %></div>
+		<div class=" ts-serif-clean"><%- genericdoc.content %></div>
 	</section>
 	<% if(genericdoc.items && genericdoc.items.length > 0){
 		genericdoc.items.forEach(function(collectionItem){

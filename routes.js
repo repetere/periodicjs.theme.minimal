@@ -15,6 +15,8 @@ module.exports = function (periodic) {
 		periodic.app.locals.autohidetitle = envThemeSettings.autohidetitle;
 		periodic.app.locals.usecustomnav = envThemeSettings.usecustomnav;
 		periodic.app.locals.customnav = envThemeSettings.customnav;
+		periodic.app.locals.usecustomfooter = envThemeSettings.usecustomfooter;
+		periodic.app.locals.customfooter = envThemeSettings.customfooter;
 	}
 
 	if (envThemeSettings.navlinks === 'categories') {
