@@ -13,6 +13,7 @@
 	<meta name="Resource-type" content="Document" />
 	<link rel="icon" type="image/png" href="/favicon.png">
   <link href="<%= locals.themehelper.themePublicResourcePath('periodicjs.theme.minimal','stylesheets') %>minimal.css" rel="stylesheet">
+  <link href="<%= locals.themehelper.themePublicResourcePath('periodicjs.theme.minimal','stylesheets') %>minimal_custom.css" rel="stylesheet">
   <script src="<%= locals.themehelper.themePublicResourcePath('periodicjs.theme.minimal','js') %>minimal.min.js"></script>
 	<% if(pagedata && periodic){%>
 		<% var headertags = locals.viewhelper.includeJavaScripts(pagedata.headerjs); %><%- headertags %>
